@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+h1{
+    font-size: 31px;
+    font-weight: 800px;
+    float: left;
+}
+h1 img{
+    position: absolute;
+    top: 18px;
+    left: 115px;
+}
+.medium{
+    position: relative;
+    left: 42px;
+}
+nav{
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    float: right;
+    padding-top: 18px;
+}
+nav a{
+    margin: 12px;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+/* .el{
+    border-top: 1px solid black;
+} */
+.el-2{
+    background-color: rgb(255,192,23);
+}
+.el-3{
+    /* Trending On Medium */
+    padding-top: 30px;
+    padding-left: 180px;
+    padding-right: 115px;
+    padding-bottom: 40px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    border-bottom: 1px solid grey;
+}
+.el-4{
+    background-color: lightskyblue;
+}
+/* .container{
+    border: 1px solid black;
+} */
+.main-header{
+    background-color: rgb(255,192,23);
+    border-bottom: 1px solid black;
+    padding-left: 115px;
+    padding-right: 115px;
+    position: sticky;
+    top: 0;
+}
+.main-header::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.get-main{
+    margin-right: 0;
+}
+.get-in{ 
+    box-sizing: border-box;
+    padding: 9px 16px 11px 16px;
+    border: 1px solid black;
+    border-radius: 5em;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+.stay{
+    padding-left: 115px;
+    padding-top: 93px;
+    padding-bottom: 12px;
+    font-size: 106px;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.discover{
+    padding-left: 115px;
+    padding-bottom: 45px;
+    font-size: 24px;
+    font-weight: 350;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.start-reading{
+    padding-left: 115px;
+    padding-bottom: 90px;
+    border-bottom: 1px solid black;
+}
+.start-reading-button{
+    box-sizing: border-box;
+    padding: 7px 20px 9px 20px;
+    border: 1px solid black;
+    border-radius: 1em;
+    width: 213px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 350;
+}
+.trend{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 80px;
+}
+/* .trend div{
+    border: 1px solid black;
+} */
+.trend_img{
+    position: absolute;
+    left: 115px;
+}
+.trend_text{
+    font-size: small;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: -20px;
+}
+.catchline{
+    font-weight: 600;
+}
+.number{
+    font-weight: 700;
+    color: rgb(230,230,230);
+    font-size: 30px;
+    position: relative;
+    top: 33px;
+    left: -55px;
+}
+.name{
+    font-size: smaller;
+    color: rgb(83, 79, 79);
+    font-weight: 410;
+    line-height: 30px;
+}
+.date{
+    font-size: smaller;
+    color: grey;
+    padding-top: 10px;
+}
+/* .book{
+    background-repeat: no-repeat;
+    background-position: center;
+} */
