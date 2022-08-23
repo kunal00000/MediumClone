@@ -1,5 +1,3 @@
-
-
 fetch("data.json").then((data)=>{
     return data.json()
 }).then((compeleteData)=>{

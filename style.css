@@ -34,6 +34,7 @@ nav a{
 } */
 .el-2{
     background-color: rgb(255,192,23);
+    border-bottom: 1px solid black;
 }
 .el-3{
     /* Trending On Medium */
@@ -92,7 +93,6 @@ nav a{
 .start-reading{
     padding-left: 115px;
     padding-bottom: 90px;
-    border-bottom: 1px solid black;
 }
 .start-reading-button{
     box-sizing: border-box;
@@ -146,7 +146,18 @@ nav a{
     color: grey;
     padding-top: 10px;
 }
-/* .book{
-    background-repeat: no-repeat;
-    background-position: center;
-} */
+.book_sleft{
+    float: left;
+}
+.book{
+    margin: auto;
+    float: right;
+    position: relative;
+    top: 61px;
+    right: 100px;
+}
+.el-2::after{
+    content: "";
+    clear: both;
+    display: block;
+}
