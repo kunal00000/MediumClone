@@ -1,31 +1,36 @@
 [
 {
-
+"proficon": "./pic0.jpg",
 "name":"Barack Obama",
 "catchline":"My 2022 Summer Lists",
 "date":"Jul 27 · 3 min read"
 },
 {
+"proficon": "./pic1.jpg",
 "name":"Arthur Hayes",
-"catchline":"Max Bidding",
+"catchline":"Ukraine War, 23 August 2022",
 "date":"Aug 5 · 39 min read"
 },
 {
+"proficon": "pic2.jpg",
 "name":"Nadin Brzezinski",
-"catchline":"Logistics Collapse",
+"catchline":"Nobody Wants to Teach Anymore",
 "date":"Jul 18 · 12 min read"
 },
 {
+"proficon": "./pic3.jpg",
 "name":"Mark Tulin in Thank You Notes",
 "catchline":"Farewell, Wally Cleaver",
 "date":"Jul 31 · 3 min read"
 },
 {
+"proficon": "./pic4.jpg",
 "name":"FriarWire",
 "catchline":"Padres Acquire OF Juan Soto and 1B Josh Bell From Nationals",
 "date":"Aug 3 · 3 min read"
 },
 {
+"proficon": "./pic5.jpg",
 "name":"Aniket in Geek Culture",
 "catchline":"Google’s New Programming Language is Called Carbon",
 "date":"Jul 23 · 3 min read"

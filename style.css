@@ -1,12 +1,13 @@
 body{
     margin: 0;
+    padding: 0px;
 }
 p{
     margin: 0;
 }
 h1{
-    font-size: 31px;
-    font-weight: 800px;
+    font-size: 32px;
+    font-weight: 1000;
     float: left;
 }
 h1 img{
@@ -19,19 +20,17 @@ h1 img{
     left: 42px;
 }
 nav{
-    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     float: right;
     padding-top: 18px;
 }
 nav a{
     margin: 12px;
-    font-size: 13px;
-    color: black;
+    font-size: 13.5px;
+    color: rgb(49, 49, 49);
     text-decoration: none;
+    letter-spacing: 0.3px;
 }
-/* .el{
-    border-top: 1px solid black;
-} */
 .el-2{
     background-color: rgb(255,192,23);
     border-bottom: 1px solid black;
@@ -42,11 +41,8 @@ nav a{
     padding-left: 180px;
     padding-right: 115px;
     padding-bottom: 40px;
-    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
-    border-bottom: 1px solid grey;
-}
-.el-4{
-    background-color: lightskyblue;
+    /* font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif; */
+    border-bottom: 1px solid rgb(233, 228, 228);
 }
 /* .container{
     border: 1px solid black;
@@ -69,7 +65,7 @@ nav a{
 }
 .get-in{ 
     box-sizing: border-box;
-    padding: 9px 16px 11px 16px;
+    padding: 10px 16px 11px 16px;
     border: 1px solid black;
     border-radius: 5em;
     background-color: black;
@@ -80,13 +76,16 @@ nav a{
     padding-left: 115px;
     padding-top: 93px;
     padding-bottom: 12px;
-    font-size: 106px;
-    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 108px;
+    font-weight: 400;
+    font-family: Georgia;
+    letter-spacing: -2px;
 }
 .discover{
     padding-left: 115px;
     padding-bottom: 45px;
     font-size: 24px;
+    color: rgb(54, 54, 54);
     font-weight: 350;
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -126,6 +125,7 @@ nav a{
 }
 .catchline{
     font-weight: 600;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
 }
 .number{
     font-weight: 700;
@@ -134,30 +134,91 @@ nav a{
     position: relative;
     top: 33px;
     left: -55px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.proficon{
+    float: left;
+    margin-left: -3px;
+    padding-right: 8px;
 }
 .name{
+    margin-bottom: 3px;
     font-size: smaller;
-    color: rgb(83, 79, 79);
-    font-weight: 410;
+    color: rgb(59, 59, 59);
+    font-weight: 450;
     line-height: 30px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
 }
 .date{
     font-size: smaller;
     color: grey;
     padding-top: 10px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
 }
 .book_sleft{
     float: left;
 }
-.book{
-    margin: auto;
+.book img{
     float: right;
     position: relative;
-    top: 61px;
+    top: 64px;
     right: 100px;
 }
 .el-2::after{
     content: "";
     clear: both;
     display: block;
+}
+.el-4{
+    margin: 60px 115px 0px 75px;
+    /* background-color: lightskyblue; */
+}
+ul{
+    width: 710px;
+}
+.blog1{
+    padding-bottom: 55px;
+}
+.blogRead{
+    float: left;
+    width: 66.66%;
+}
+.imageBlog img{
+    float: right;
+    width: 30%;
+    height: 140px;
+}
+.blog1::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.catchline1{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.catchline2{
+    font-size: 15px;
+    color: rgb(141, 141, 141);
+    line-height: 17px;
+    margin-top: 6px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.tagButton{
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 238);
+    border: 0px;
+    border-radius: 8px;
+    color: rgb(116, 116, 116);
+}
+.bookicon{
+    float: right;
+}
+.dateBlog{
+    font-size: smaller;
+    color: grey;
+    margin-top: 8px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
 }
