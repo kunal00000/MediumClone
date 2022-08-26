@@ -48,9 +48,9 @@ postData1 += `<div class="blog1">
         </p>
     </div>
     <div class="imageBlog">
-        <img src="./guerrillabuzz-crypto-pr-PACWvLRNzj8-unsplash.jpg" alt="">
+        <img src=${kunal1.imageBlog} alt="">
     </div>
 </div>`
-document.getElementsById("leftBlog").innerHTML = postData1
+document.getElementById("leftBlog").innerHTML = postData1
     })
 })

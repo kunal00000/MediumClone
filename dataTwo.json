@@ -4,16 +4,125 @@
     "name": "Emily Willingham" ,
     "catchline1": "Three Stages of Aging with Pride and Prejudice" ,
     "catchline2": "Growing old with Jane Austen means new perspectives on characters we once loved to hate" ,
-    "dateBlog": "Aug 26 · 7 min read ·" ,
-    "tagButton": "All About Aging"       
+    "dateBlog": "Aug 26 · 7 min read · " ,
+    "tagButton": "All About Aging" ,
+    "imageBlog": "boston-public-library-4yPHCb1SPR4-unsplash.jpg"     
 },
 {
     "proficon": "pic1.jpg" ,
     "name": "Audrey Stimson in Globetrotters" ,
     "catchline1": "When Does a Trip End?" ,
     "catchline2": "A Yukon River Adventure in Alaska that will stay part of me forever." ,
-    "dateBlog": "Aug 24 · 6 min read ·" ,
-    "tagButton": "Alaska"     
+    "dateBlog": "Aug 24 · 6 min read · " ,
+    "tagButton": "Alaska",
+    "imageBlog": "man-walking-dog.jpg"     
+},
+{
+    "proficon": "pic2.jpg" ,
+    "name": "B Kean" ,
+    "catchline1": "Russia’s Soldiers Sabotaging the Russian Army" ,
+    "catchline2": "And getting huge payouts for doing so..." ,
+    "dateBlog": "Aug 18 · 5 min read · " ,
+    "tagButton": "Perspective" ,
+    "imageBlog": "N2psyplM3kFK9NEjjpak3CPIhh8IurY7Tn9vqzi4r8M=.jpeg"
+},
+{
+    "proficon": "pic3.jpg" ,
+    "name": "Blaise Aguera y Arcas" ,
+    "catchline1": "Can machines learn how to behave?" ,
+    "catchline2": "Beyond the current news cycle about whether AIs are sentient is a more practical and immediately consequential conversation about..." ,
+    "dateBlog": "Aug 3 · 64 min read · " ,
+    "tagButton":"AI",
+    "imageBlog": "wolfgang-hasselmann-CdADeIaluPg-unsplash.jpg" 
+},
+{
+    "proficon": "pic4.jpg" ,
+    "name": "Aaron Dinin, PhD in The Startup" ,
+    "catchline1": "The 5 Most Important Lessons I Learned From 2 Years of Weekly Podcasting" ,
+    "catchline2": "Is podcasting really worth your time?" ,
+    "dateBlog": "Aug 25 · 6 min read · " ,
+    "tagButton": "Entrepreneurship" ,
+    "imageBlog": "benoit-deschasaux-Yz74K75HCP4-unsplash.jpg"     
+},
+{
+    "proficon": "pic5.jpg" ,
+    "name": "Emmanuel" ,
+    "catchline1": "Why Dall-E will not steal my job?" ,
+    "catchline2": "I finally was able to try it. And I can assure you it’s impossible to create professional and useful images from a text description." ,
+    "dateBlog": "Aug 13 · 8 min read · " ,
+    "tagButton": "AI",
+    "imageBlog":"boston-public-library-6b2xPLPN6ag-unsplash.jpg"  
+},
+{
+    "proficon": "pic0.jpg" ,
+    "name": "Tony, the Curator" ,
+    "catchline1": "half a year spent in war" ,
+    "catchline2": "Day 182: it’s independence day, and the seeds of freedom are everywhere." ,
+    "dateBlog": "Aug 24 · 3 min read · " ,
+    "tagButton": "Ukraine",
+    "imageBlog": "guerrillabuzz-crypto-pr-kUptPYLCnbk-unsplash.jpg"  
+},
+{
+    "proficon": "pic1.jpg" ,
+    "name": "Nir Zicherman in Entrepreneur's Handbook" ,
+    "catchline1": "The Great Puzzle of Growing Organizations" ,
+    "catchline2": "Only two of the following three options can be achieved: consistency, availability, and partition tolerance.." ,
+    "dateBlog": "Aug 23 · 6 min read · " ,
+    "tagButton": "Business" ,
+    "imageBlog": "guerrillabuzz-crypto-pr-PACWvLRNzj8-unsplash.jpg"     
+},
+{
+    "proficon": "pic2.jpg" ,
+    "name": "Tori Franklin" ,
+    "catchline1": "How I Was Guided to the First EVER Triple Jump Medal for an American Woman" ,
+    "catchline2": "A few weeks ago I accomplished a feat no other American woman has ever achieved. I am the first and ONLY..." ,
+    "dateBlog": "Aug 18 · 9 min read · " ,
+    "tagButton": "Sports" ,
+    "imageBlog": "GZlBRmAKGzsDoT8yNRCh6VmxflxLEQEkiKPohYwja94=.jpeg"     
+},
+{
+    "proficon": "pic3.jpg" ,
+    "name": "Kerala Taylor" ,
+    "catchline1": "What If We Designed All Workplaces for Single Moms of Color?" ,
+    "catchline2": "The workplace user experience for this demographic sucks. Here’s what we can do about it." ,
+    "dateBlog": "Aug 17 · 10 min read · " ,
+    "tagButton": "Work" ,
+    "imageBlog": "kseniya-petukhova-3bUGcXZLY9o-unsplash.jpg"     
+},
+{
+    "proficon": "pic4.jpg" ,
+    "name": "Thought Catalog" ,
+    "catchline1": "Seeking Serotonin For The End Of The World" ,
+    "catchline2": "By Callie Byrnes" ,
+    "dateBlog": "Aug 18 · 10 min read · " ,
+    "tagButton": "Anxiety" ,
+    "imageBlog": "man-walking-dog.jpg"     
+},
+{
+    "proficon": "pic5.jpg" ,
+    "name": "Josh Rose" ,
+    "catchline1": "Coming Home, Traveling Abroad." ,
+    "catchline2": "A Month in Romania and Italy, With the Leica M11, 21m, 35m & 50m" ,
+    "dateBlog": "Aug 24 · 8 min read · " ,
+    "tagButton": "Photography" ,
+    "imageBlog": "map.jpg"     
+},
+{
+    "proficon": "pic0.jpg" ,
+    "name": "George Dillard" ,
+    "catchline1": "Will the GOP Ever Stop Scoring Own Goals?" ,
+    "catchline2": "What if the Republicans stopped nominating crackpots in major races?" ,
+    "dateBlog": "Aug 24 · 5 min read · " ,
+    "tagButton": "Politics" ,
+    "imageBlog": "N2psyplM3kFK9NEjjpak3CPIhh8IurY7Tn9vqzi4r8M=.jpeg"     
+},
+{
+    "proficon": "pic1.jpg" ,
+    "name": "Alexandra Samuel" ,
+    "catchline1": "The working parent’s guide to screen time" ,
+    "catchline2": "Principles, practices and parental controls that keep kid tech in check" ,
+    "dateBlog": "Aug 23 · 24 min read · " ,
+    "tagButton": "Parenting" ,
+    "imageBlog": "wolfgang-hasselmann-CdADeIaluPg-unsplash.jpg"     
 }
-   
 ]
