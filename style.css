@@ -52,7 +52,7 @@ nav a{
     border-bottom: 1px solid black;
     padding-left: 115px;
     padding-right: 115px;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
 }
 .main-header::after{
@@ -171,7 +171,6 @@ nav a{
 }
 .el-4{
     margin: 60px 115px 0px 75px;
-    /* background-color: lightskyblue; */
 }
 ul{
     width: 710px;
@@ -208,17 +207,73 @@ ul{
 }
 .tagButton{
     box-sizing: border-box;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(241, 241, 241);
     border: 0px;
     border-radius: 8px;
     color: rgb(116, 116, 116);
 }
 .bookicon{
     float: right;
+    background-color: white;
+    border: 0px;
 }
 .dateBlog{
     font-size: smaller;
     color: grey;
     margin-top: 8px;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.star{
+    background-color: white;
+    border: 0px;
+    position: relative;
+    top: 6px;
+}
+.tagHead{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.tags{
+    display: flex;
+    width: 397px;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+.tag{
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 4px;
+    margin: 0px 8px 8px 0px;
+    padding: 8px 16px 8px 16px;
+    color: rgb(135, 135, 135);
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: smaller;
+}
+.leftBlog{
+    float: left;
+}
+.tagContainer{
+    float: right;
+}
+.el-4::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+footer{
+    display: flex;
+    width: 397px;
+    flex-flow: row wrap;
+    padding-top: 25px;
+    border-top: 1px solid rgb(224, 224, 224);
+    color: rgb(135, 135, 135);
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px ;
+}
+footer div{
+    margin-right: 25px;
+    margin-bottom: 15px;
 }

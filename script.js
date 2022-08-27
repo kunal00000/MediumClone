@@ -44,7 +44,12 @@ postData1 += `<div class="blog1">
         <p class="dateBlog">
             ${kunal1.dateBlog}
             <button class="tagButton">${kunal1.tagButton}</button>
-            <button class="bookicon">icon</button>
+            <button class="star">
+                <img src="./Screenshot_2022-08-26_at_11.54.03_PM-removebg-preview.png" height="22px">
+            </button>
+            <button class="bookicon">
+                <img src="./icons8-bookmark-49.png" height="20px">
+            </button>
         </p>
     </div>
     <div class="imageBlog">
