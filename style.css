@@ -7,7 +7,7 @@ p{
 }
 h1{
     font-size: 32px;
-    font-weight: 20000;
+    font-weight: 1100;
     float: left;
 }
 h1 img{
@@ -41,7 +41,7 @@ nav a{
     padding-left: 180px;
     padding-right: 115px;
     padding-bottom: 40px;
-    /* font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif; */
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
     border-bottom: 1px solid rgb(233, 228, 228);
 }
 /* .container{
@@ -257,6 +257,8 @@ ul{
 }
 .tagContainer{
     float: right;
+    position: sticky;
+    top: 60px;
 }
 .el-4::after{
     content: "";
