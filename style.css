@@ -37,23 +37,17 @@ nav a{
 }
 .el-3{
     /* Trending On Medium */
-    padding-top: 30px;
-    padding-left: 180px;
-    padding-right: 115px;
-    padding-bottom: 40px;
+    padding: 3em 8em 2.5em 7em;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
     border-bottom: 1px solid rgb(233, 228, 228);
 }
-/* .container{
-    border: 1px solid black;
-} */
 .main-header{
     background-color: rgb(255,192,23);
     border-bottom: 1px solid black;
     padding-left: 115px;
     padding-right: 115px;
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0;
 }
 .main-header::after{
     content: "";
@@ -107,34 +101,49 @@ nav a{
 .trend{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 80px;
+    column-gap: 2em;
+    row-gap: 2em;
 }
-/* .trend div{
-    border: 1px solid black;
-} */
 .trend_img{
-    position: absolute;
-    left: 115px;
+    width: 18.5%;
+    margin-bottom: 0.5em;
+}
+.tendy{
+    float: left;
+    margin-top: -0.7em;
 }
 .trend_text{
+    float: right;
     font-size: small;
     font-weight: bold;
-    position: relative;
-    top: 10px;
-    left: -20px;
+    letter-spacing: 1px;
+}
+.trend_img::after{
+    content: "";
+    clear: both;
+    display: block;
 }
 .catchline{
     font-weight: 600;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
 }
 .number{
+    float: left;
     font-weight: 700;
     color: rgb(230,230,230);
     font-size: 30px;
-    position: relative;
-    top: 33px;
-    left: -55px;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    width: 10%;
+}
+.numberRight{
+    float: right;
+    margin-top: 0.5em;
+    width: 85%;
+}
+.inele::after{
+    content: "";
+    clear: both;
+    display: block;
 }
 .proficon{
     float: left;
@@ -160,9 +169,7 @@ nav a{
 }
 .book img{
     float: right;
-    position: relative;
-    top: 58px;
-    right: 100px;
+    margin-right: 5em;
 }
 .el-2::after{
     content: "";
@@ -213,21 +220,26 @@ ul{
     color: rgb(116, 116, 116);
 }
 .bookicon{
-    float: right;
     background-color: white;
     border: 0px;
+    margin-left: auto;
+}
+.daty{
+    background-color: white;
+    border: 0;
+    padding-left: 0;
+    color: grey;
 }
 .dateBlog{
+    display: flex;
     font-size: smaller;
-    color: grey;
-    margin-top: 8px;
+    margin-top: 1.2em;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+    /* padding-bottom: 100px; */
 }
 .star{
     background-color: white;
     border: 0px;
-    position: relative;
-    top: 6px;
 }
 .tagHead{
     text-transform: uppercase;
@@ -258,7 +270,7 @@ ul{
 .tagContainer{
     float: right;
     position: sticky;
-    top: 60px;
+    top: 8.5em;
 }
 .el-4::after{
     content: "";
