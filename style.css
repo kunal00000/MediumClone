@@ -32,11 +32,11 @@ nav a{
     letter-spacing: 0.3px;
 }
 .el-2{
+    width: 100%;
     background-color: rgb(255,192,23);
     border-bottom: 1px solid black;
 }
 .el-3{
-    /* Trending On Medium */
     padding: 3em 8em 2.5em 7em;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
     border-bottom: 1px solid rgb(233, 228, 228);
@@ -66,7 +66,7 @@ nav a{
     color: white;
     font-size: 14px;
 }
-.stay{
+/* .stay{
     padding-left: 115px;
     padding-top: 93px;
     padding-bottom: 12px;
@@ -86,8 +86,8 @@ nav a{
 .start-reading{
     padding-left: 115px;
     padding-bottom: 90px;
-}
-.start-reading-button{
+} */
+/* .start-reading-button{
     box-sizing: border-box;
     padding: 7px 20px 9px 20px;
     border: 1px solid black;
@@ -97,8 +97,8 @@ nav a{
     color: white;
     font-size: 20px;
     font-weight: 350;
-}
-.trend{
+} */
+/* .trend{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 2em;
@@ -122,7 +122,7 @@ nav a{
     content: "";
     clear: both;
     display: block;
-}
+} */
 .catchline{
     font-weight: 600;
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
@@ -176,9 +176,9 @@ nav a{
     clear: both;
     display: block;
 }
-.el-4{
+/* .el-4{
     margin: 60px 115px 0px 75px;
-}
+} */
 ul{
     width: 710px;
 }
@@ -192,7 +192,7 @@ ul{
 .imageBlog img{
     float: right;
     width: 30%;
-    height: 130px;
+    height: 137px;
 }
 .blog1::after{
     content: "";
@@ -264,7 +264,7 @@ ul{
     font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
     font-size: smaller;
 }
-.leftBlog{
+/* .leftBlog{
     float: left;
 }
 .tagContainer{
@@ -276,7 +276,7 @@ ul{
     content: "";
     clear: both;
     display: block;
-}
+} */
 footer{
     display: flex;
     width: 397px;
@@ -291,3 +291,236 @@ footer div{
     margin-right: 25px;
     margin-bottom: 15px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    h1 img{
+        position: absolute;
+        top: 18px;
+        left: 20px;
+    }
+    .medium{
+        position: relative;
+        left: -55px;
+    }
+    header{
+        position: sticky;
+        top: 10px;
+    }
+    .noDisplay{
+        display: none;
+    }
+    .get-in{
+        position: absolute;
+        right: 25px;
+    }
+    .stay{
+        margin: 90px 150px 0px 25px ;
+        font-size: 70px;
+        font-weight: 400;
+        font-family: Georgia;
+        letter-spacing: -0.5px;
+    }
+    .discover{
+        margin: 35px 25px 0px 25px;
+        font-size: 24px;
+        color: rgb(54, 54, 54);
+        font-weight: 350;
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .book img{
+        display: none;
+    }
+    .start-reading-button{
+        box-sizing: border-box;
+        margin: 40px 25px 80px 25px;
+        padding: 7px 20px 9px 20px;
+        border: 1px solid black;
+        border-radius: 1em;
+        width: 213px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-weight: 350;
+    }
+    .trend{
+        display: grid;
+        grid-template-rows: repeat(6,1fc);
+        row-gap: 2em;
+    }
+    .trend_img{
+        width: 61%;
+        margin-bottom: 0.5em;
+    }
+    .el-3{
+        /* Trending On Medium */
+        padding: 30px 20px 40px 25px;
+        font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+        border-bottom: 1px solid rgb(233, 228, 228);
+    }
+    .tendy{
+        float: left;
+    }
+    .trend_text{
+        float: right;
+        font-size: small;
+        font-weight: bold;
+        margin: 12px 0 0 0;
+        letter-spacing: 1px;
+    }
+    .trend_img::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+    footer{
+        width: auto;
+        padding: 25px 25px 25px 25px;
+        color: rgb(255, 255, 255);
+        background-color: black;
+    }
+    .el-4{
+        padding: 0;
+    }
+    .tagHead{
+        border-top: 1px solid rgb(229, 229, 229);
+        margin: 0px 25px 0px 25px;
+        padding-top: 20px;
+    }
+    .tags{
+        padding-left: 25px;
+    }
+    ul{
+        margin: 3.5rem 1.5em 0 -1em ;
+        width: auto;
+        height: auto;
+    }
+    .catchline2{
+        display: none;
+    }
+    .tagButton{
+        display: none;
+    }
+    .imageBlog{
+        height: 70%;
+    }
+    .dateBlog{
+        margin-top: 0.5em;
+        font-size: small;
+    }
+    .catchline1{
+        font-size: medium;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0px;
+    }
+    .main-header{
+        position: sticky;
+        top: 0;
+    }
+    .book_sleft{
+        float: left;
+        width: 55%;
+    }
+    .book img{
+        float: right;
+        margin-right: 5em;
+    }
+    .stay{
+        padding-left: 115px;
+        padding-top: 93px;
+        padding-bottom: 12px;
+        font-size: 108px;
+        font-weight: 400;
+        font-family: Georgia;
+        letter-spacing: -2px;
+    }
+    .discover{
+        padding-left: 115px;
+        padding-bottom: 45px;
+        width: 60%;
+        font-size: 24px;
+        color: rgb(54, 54, 54);
+        font-weight: 350;
+        font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .start-reading{
+        padding-left: 115px;
+        padding-bottom: 90px;
+    }
+    .start-reading-button{
+        box-sizing: border-box;
+        padding: 7px 20px 9px 20px;
+        border: 1px solid black;
+        border-radius: 1em;
+        width: 213px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-weight: 350;
+    }
+    .trend{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 2em;
+        row-gap: 2em;
+    }
+    .trend_img{
+        width: 18.5%;
+        margin-bottom: 0.5em;
+    }
+    .tendy{
+        float: left;
+        margin-top: -0.7em;
+    }
+    .trend_text{
+        float: right;
+        font-size: small;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .trend_img::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .el-3{
+        /* Trending On Medium */
+        padding: 3em 8em 2.5em 7em;
+        font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+        border-bottom: 1px solid rgb(233, 228, 228);
+    }
+    .leftBlog{
+        float: left;
+    }
+    .tagContainer{
+        float: right;
+        position: sticky;
+        top: 8.5em;
+    }
+    .el-4::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .el-4{
+        margin: 60px 115px 0px 75px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+    body{
+        margin: 0;
+        padding: 0px;
+    }
+} */
