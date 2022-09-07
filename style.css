@@ -250,7 +250,7 @@ ul{
 }
 .tags{
     display: flex;
-    width: 397px;
+    width: 94vw;
     flex-flow: row wrap;
     margin-top: 20px;
     margin-bottom: 23px;
@@ -292,10 +292,11 @@ footer div{
     margin-bottom: 15px;
 }
 
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 768px) {
     body{
-        width: full;
+        width: auto;
         /* margin: 0;
         padding: 0; */
     }
@@ -393,7 +394,7 @@ footer div{
         padding-top: 20px;
     }
     .tags{
-        padding-left: 25px;
+        padding-left: 6vw;
     }
     ul{
         margin: 3.5rem 1.5em 0 -1em ;
