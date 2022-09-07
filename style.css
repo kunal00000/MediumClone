@@ -319,15 +319,15 @@ footer div{
         right: 25px;
     }
     .stay{
-        margin: 90px 150px 0px 25px ;
+        margin: 90px 0px 0px 25px ;
         font-size: 70px;
         font-weight: 400;
         font-family: Georgia;
         letter-spacing: -0.5px;
     }
     .discover{
-        margin: 35px 25px 0px 25px;
-        font-size: 24px;
+        margin: 35px 0px 0px 25px;
+        font-size: 22px;
         color: rgb(54, 54, 54);
         font-weight: 350;
         font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -337,7 +337,7 @@ footer div{
     }
     .start-reading-button{
         box-sizing: border-box;
-        margin: 40px 25px 80px 25px;
+        margin: 40px 0px 80px 25px;
         padding: 7px 20px 9px 20px;
         border: 1px solid black;
         border-radius: 1em;
