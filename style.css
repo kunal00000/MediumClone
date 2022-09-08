@@ -292,16 +292,26 @@ footer div{
     margin-bottom: 15px;
 }
 
-
+@media only screen and (max-width: 285px) {
+    .get-main{
+        position: absolute;
+        right: 0px;
+    }
+    .medium{
+        padding-right: 0px;
+    }
+}
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 768px) {
+@media (min-width:286px) and (max-width: 768px) {
     .tags{
         width: 88vw;
     }
     body{
         width: auto;
-        /* margin: 0;
-        padding: 0; */
+    }
+    h1{
+        float: left;
+        font-size: 30px;
     }
     h1 img{
         position: absolute;
@@ -428,6 +438,11 @@ footer div{
         margin: 0;
         padding: 0px;
     }
+    .container{
+        width: 1425px;
+        display: block;
+        margin: auto;
+    }
     .main-header{
         position: sticky;
         top: 0;
@@ -438,7 +453,7 @@ footer div{
     }
     .book img{
         float: right;
-        margin-right: 5em;
+        margin-right: 5%;
     }
     .stay{
         padding-left: 115px;
